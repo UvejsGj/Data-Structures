@@ -1,12 +1,11 @@
+import Stack from "./stacks.js";
 
-import stacks from "./stacks.js"
-
-const brands = new stacks();
+const brands = new Stack();
 
 brands.push("Adidas");
-brands.push("Puma")
-brands.push("Nike")
+brands.push("Puma");
+brands.push("Nike");
 
-console.log(brands.pop())
-console.log(brands)
-console.log(brands.peek())
+console.log(brands.pop());
+console.log(brands);
+console.log(brands.peek());
